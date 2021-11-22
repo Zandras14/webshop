@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 14px;
+}
+.doboz{
+    width: 200px;
+    margin: 100px auto 1000px auto;
+    text-align: center;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.kep{
+    background: white;
+}
+a{
+    text-decoration: none;
+    color: #0d9ac7;
+}
+h2{
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+button{
+    background: #0d9ac7;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px ;
+}
+p{
+    font-weight: bold;
+}
+.kep{
+    position: relative;
+}
+.kep span{
+    position: absolute;
+}
+.kep .icon-star{
+    left: 10px;
+    top: 10px;
+    font-size: 1.2rem;
+    display: none;
+    color: #ddd;
+}
+.kep .akcio{
+    bottom: 10px;
+    right: 10px;
+    background: green;
+    color:  white;
+    padding: 3px 5px;
+}
+.kep:hover .icon-star{
+    display: inline-block;
+}
+.icon-star.kedvenc{
+    color: orange;
+    display: inline-block;
+}
+.header{
+    background-color: #0d9ac7;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 100;
+}
